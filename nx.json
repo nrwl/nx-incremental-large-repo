@@ -1,0 +1,192 @@
+{
+  "npmScope": "largerepo",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "app0": {
+      "tags": []
+    },
+    "app1": {
+      "tags": []
+    },
+    "app0-lib0-lib0": {
+      "tags": []
+    },
+    "app0-lib0-childlib0": {
+      "tags": []
+    },
+    "app0-lib0-childlib1": {
+      "tags": []
+    },
+    "app0-lib0-childlib2": {
+      "tags": []
+    },
+    "app0-lib0-childlib3": {
+      "tags": []
+    },
+    "app0-lib0-childlib4": {
+      "tags": []
+    },
+    "app0-lib0-childlib5": {
+      "tags": []
+    },
+    "app0-lib0-childlib6": {
+      "tags": []
+    },
+    "app0-lib0-childlib7": {
+      "tags": []
+    },
+    "app0-lib0-childlib8": {
+      "tags": []
+    },
+    "app0-lib0-childlib9": {
+      "tags": []
+    },
+    "app0-lib1-lib1": {
+      "tags": []
+    },
+    "app0-lib1-childlib0": {
+      "tags": []
+    },
+    "app0-lib1-childlib1": {
+      "tags": []
+    },
+    "app0-lib1-childlib2": {
+      "tags": []
+    },
+    "app0-lib1-childlib3": {
+      "tags": []
+    },
+    "app0-lib1-childlib4": {
+      "tags": []
+    },
+    "app0-lib1-childlib5": {
+      "tags": []
+    },
+    "app0-lib1-childlib6": {
+      "tags": []
+    },
+    "app0-lib1-childlib7": {
+      "tags": []
+    },
+    "app0-lib1-childlib8": {
+      "tags": []
+    },
+    "app0-lib1-childlib9": {
+      "tags": []
+    },
+    "app0-lib2-lib2": {
+      "tags": []
+    },
+    "app0-lib2-childlib0": {
+      "tags": []
+    },
+    "app0-lib2-childlib1": {
+      "tags": []
+    },
+    "app0-lib2-childlib2": {
+      "tags": []
+    },
+    "app0-lib2-childlib3": {
+      "tags": []
+    },
+    "app0-lib2-childlib4": {
+      "tags": []
+    },
+    "app0-lib2-childlib5": {
+      "tags": []
+    },
+    "app0-lib2-childlib6": {
+      "tags": []
+    },
+    "app0-lib2-childlib7": {
+      "tags": []
+    },
+    "app0-lib2-childlib8": {
+      "tags": []
+    },
+    "app0-lib2-childlib9": {
+      "tags": []
+    },
+    "app0-lib3-lib3": {
+      "tags": []
+    },
+    "app0-lib3-childlib0": {
+      "tags": []
+    },
+    "app0-lib3-childlib1": {
+      "tags": []
+    },
+    "app0-lib3-childlib2": {
+      "tags": []
+    },
+    "app0-lib3-childlib3": {
+      "tags": []
+    },
+    "app0-lib3-childlib4": {
+      "tags": []
+    },
+    "app0-lib3-childlib5": {
+      "tags": []
+    },
+    "app0-lib3-childlib6": {
+      "tags": []
+    },
+    "app0-lib3-childlib7": {
+      "tags": []
+    },
+    "app0-lib3-childlib8": {
+      "tags": []
+    },
+    "app0-lib3-childlib9": {
+      "tags": []
+    },
+    "app0-lib4-lib4": {
+      "tags": []
+    },
+    "app0-lib4-childlib0": {
+      "tags": []
+    },
+    "app0-lib4-childlib1": {
+      "tags": []
+    },
+    "app0-lib4-childlib2": {
+      "tags": []
+    },
+    "app0-lib4-childlib3": {
+      "tags": []
+    },
+    "app0-lib4-childlib4": {
+      "tags": []
+    },
+    "app0-lib4-childlib5": {
+      "tags": []
+    },
+    "app0-lib4-childlib6": {
+      "tags": []
+    },
+    "app0-lib4-childlib7": {
+      "tags": []
+    },
+    "app0-lib4-childlib8": {
+      "tags": []
+    },
+    "app0-lib4-childlib9": {
+      "tags": []
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "accessToken": "YWM3NWZiNmItZWUzMS00ZmMyLWJlODQtZGFlNGMxN2I5NmVlfHJlYWQtd3JpdGU=",
+        "cacheableOperations": ["build"]
+      }
+    }
+  }
+}

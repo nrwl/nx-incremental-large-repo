@@ -1,0 +1,12 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'largerepo-lib4childlib1component45',
+  templateUrl: './lib4childlib1component45.component.html',
+  styleUrls: ['./lib4childlib1component45.component.css']
+})
+export class Lib4childlib1component45Component implements OnInit {
+  constructor() {}
+
+  ngOnInit(): void {}
+}
