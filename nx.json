@@ -3,9 +3,9 @@
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": "*",
-    "tsconfig.json": "*",
     "tslint.json": "*",
-    "nx.json": "*"
+    "nx.json": "*",
+    "tsconfig.base.json": "*"
   },
   "projects": {
     "app0": {
@@ -185,8 +185,16 @@
       "runner": "@nrwl/nx-cloud",
       "options": {
         "accessToken": "YWM3NWZiNmItZWUzMS00ZmMyLWJlODQtZGFlNGMxN2I5NmVlfHJlYWQtd3JpdGU=",
-        "cacheableOperations": ["build", "test", "lint", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "test",
+          "lint",
+          "e2e"
+        ]
       }
     }
+  },
+  "affected": {
+    "defaultBase": "master"
   }
 }
