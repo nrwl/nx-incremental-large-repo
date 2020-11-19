@@ -4,6 +4,8 @@ This project has an application composed out 44 libraries (more than 2000 compon
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx-incremental-large-repo/master/dep-graph.png"></p>
 
+> **Note:** this is experimental right now and will be released in Nx v11. [Check out our roadmap.](https://github.com/nrwl/nx/issues/3377)
+
 ## Two Applications
 
 There are two applications in the repo: app0 and app1. They are identical. They import the same libraries. The only difference is app1 is built using normal webpack builder, where all the libraries are built from source and app0 is built differently: every library here is built in its own process.
@@ -43,6 +45,17 @@ So `app0` scales a lot better as the codebase grows. **The initial `nx serve` wi
 - Run `nx test app0 --with-deps` to run all the tests.
 - Run `nx lint app0 --with-deps` to run all the lint checks.
 
+## How does it work?
+
+This works, thanks to a combination of existing and newly introduced Nx features:
+
+- dependency graph used to resolve all dependencies that need to be built
+- task orchestrator that is able to resolve and properly build all dependencies when using `--with-deps`
+- "buildable" libraries, that use a lightweight version of ng-packagr to speed up re-builds
+- computation caching and especially [Nx Cloud](https://nx.app) distributed caching
+
+Keep an eye on [our Twitter account](https://twitter.com/nxdevtools) and [our blog](https://blog.nrwl.io) for a more in-depth explanation once v11 is released.
+
 ## Try it!
 
-* Clone the repo and run `nx serve app0`
+- Clone the repo and run `nx serve app0`
