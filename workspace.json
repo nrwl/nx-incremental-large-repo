@@ -17,8 +17,13 @@
             "polyfills": "apps/app0/src/polyfills.ts",
             "tsConfig": "apps/app0/tsconfig.app.json",
             "aot": true,
-            "assets": ["apps/app0/src/favicon.ico", "apps/app0/src/assets"],
-            "styles": ["apps/app0/src/styles.css"],
+            "assets": [
+              "apps/app0/src/favicon.ico",
+              "apps/app0/src/assets"
+            ],
+            "styles": [
+              "apps/app0/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -89,7 +94,10 @@
               "apps/app0/tsconfig.app.json",
               "apps/app0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/app0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/app0/**/*"
+            ]
           }
         },
         "test": {
@@ -98,7 +106,9 @@
             "jestConfig": "apps/app0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/apps/app0"]
+          "outputs": [
+            "coverage/apps/app0"
+          ]
         }
       }
     },
@@ -118,8 +128,13 @@
             "polyfills": "apps/app1/src/polyfills.ts",
             "tsConfig": "apps/app1/tsconfig.app.json",
             "aot": true,
-            "assets": ["apps/app1/src/favicon.ico", "apps/app1/src/assets"],
-            "styles": ["apps/app1/src/styles.css"],
+            "assets": [
+              "apps/app1/src/favicon.ico",
+              "apps/app1/src/assets"
+            ],
+            "styles": [
+              "apps/app1/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -133,7 +148,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -152,7 +166,9 @@
               ]
             }
           },
-          "outputs": ["{options.outputPath}"]
+          "outputs": [
+            "{options.outputPath}"
+          ]
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -178,7 +194,10 @@
               "apps/app1/tsconfig.app.json",
               "apps/app1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/app1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/app1/**/*"
+            ]
           }
         },
         "test": {
@@ -187,7 +206,9 @@
             "jestConfig": "apps/app1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/apps/app1"]
+          "outputs": [
+            "coverage/apps/app1"
+          ]
         }
       }
     },
@@ -216,7 +237,10 @@
               "libs/app0/lib0/lib0/tsconfig.lib.json",
               "libs/app0/lib0/lib0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/lib0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/lib0/**/*"
+            ]
           }
         },
         "test": {
@@ -225,7 +249,9 @@
             "jestConfig": "libs/app0/lib0/lib0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/lib0"]
+          "outputs": [
+            "coverage/libs/app0/lib0/lib0"
+          ]
         }
       },
       "schematics": {}
@@ -255,7 +281,10 @@
               "libs/app0/lib0/childlib0/tsconfig.lib.json",
               "libs/app0/lib0/childlib0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib0/**/*"
+            ]
           }
         },
         "test": {
@@ -264,7 +293,9 @@
             "jestConfig": "libs/app0/lib0/childlib0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib0"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib0"
+          ]
         }
       },
       "schematics": {}
@@ -294,7 +325,10 @@
               "libs/app0/lib0/childlib1/tsconfig.lib.json",
               "libs/app0/lib0/childlib1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib1/**/*"
+            ]
           }
         },
         "test": {
@@ -303,7 +337,9 @@
             "jestConfig": "libs/app0/lib0/childlib1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib1"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib1"
+          ]
         }
       },
       "schematics": {}
@@ -333,7 +369,10 @@
               "libs/app0/lib0/childlib2/tsconfig.lib.json",
               "libs/app0/lib0/childlib2/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib2/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib2/**/*"
+            ]
           }
         },
         "test": {
@@ -342,7 +381,9 @@
             "jestConfig": "libs/app0/lib0/childlib2/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib2"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib2"
+          ]
         }
       },
       "schematics": {}
@@ -372,7 +413,10 @@
               "libs/app0/lib0/childlib3/tsconfig.lib.json",
               "libs/app0/lib0/childlib3/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib3/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib3/**/*"
+            ]
           }
         },
         "test": {
@@ -381,7 +425,9 @@
             "jestConfig": "libs/app0/lib0/childlib3/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib3"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib3"
+          ]
         }
       },
       "schematics": {}
@@ -411,7 +457,10 @@
               "libs/app0/lib0/childlib4/tsconfig.lib.json",
               "libs/app0/lib0/childlib4/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib4/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib4/**/*"
+            ]
           }
         },
         "test": {
@@ -420,7 +469,9 @@
             "jestConfig": "libs/app0/lib0/childlib4/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib4"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib4"
+          ]
         }
       },
       "schematics": {}
@@ -450,7 +501,10 @@
               "libs/app0/lib0/childlib5/tsconfig.lib.json",
               "libs/app0/lib0/childlib5/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib5/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib5/**/*"
+            ]
           }
         },
         "test": {
@@ -459,7 +513,9 @@
             "jestConfig": "libs/app0/lib0/childlib5/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib5"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib5"
+          ]
         }
       },
       "schematics": {}
@@ -489,7 +545,10 @@
               "libs/app0/lib0/childlib6/tsconfig.lib.json",
               "libs/app0/lib0/childlib6/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib6/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib6/**/*"
+            ]
           }
         },
         "test": {
@@ -498,7 +557,9 @@
             "jestConfig": "libs/app0/lib0/childlib6/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib6"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib6"
+          ]
         }
       },
       "schematics": {}
@@ -528,7 +589,10 @@
               "libs/app0/lib0/childlib7/tsconfig.lib.json",
               "libs/app0/lib0/childlib7/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib7/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib7/**/*"
+            ]
           }
         },
         "test": {
@@ -537,7 +601,9 @@
             "jestConfig": "libs/app0/lib0/childlib7/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib7"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib7"
+          ]
         }
       },
       "schematics": {}
@@ -567,7 +633,10 @@
               "libs/app0/lib0/childlib8/tsconfig.lib.json",
               "libs/app0/lib0/childlib8/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib8/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib8/**/*"
+            ]
           }
         },
         "test": {
@@ -576,7 +645,9 @@
             "jestConfig": "libs/app0/lib0/childlib8/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib8"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib8"
+          ]
         }
       },
       "schematics": {}
@@ -606,7 +677,10 @@
               "libs/app0/lib0/childlib9/tsconfig.lib.json",
               "libs/app0/lib0/childlib9/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib0/childlib9/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib0/childlib9/**/*"
+            ]
           }
         },
         "test": {
@@ -615,7 +689,9 @@
             "jestConfig": "libs/app0/lib0/childlib9/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib0/childlib9"]
+          "outputs": [
+            "coverage/libs/app0/lib0/childlib9"
+          ]
         }
       },
       "schematics": {}
@@ -645,7 +721,10 @@
               "libs/app0/lib1/lib1/tsconfig.lib.json",
               "libs/app0/lib1/lib1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/lib1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/lib1/**/*"
+            ]
           }
         },
         "test": {
@@ -654,7 +733,9 @@
             "jestConfig": "libs/app0/lib1/lib1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/lib1"]
+          "outputs": [
+            "coverage/libs/app0/lib1/lib1"
+          ]
         }
       },
       "schematics": {}
@@ -684,7 +765,10 @@
               "libs/app0/lib1/childlib0/tsconfig.lib.json",
               "libs/app0/lib1/childlib0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib0/**/*"
+            ]
           }
         },
         "test": {
@@ -693,7 +777,9 @@
             "jestConfig": "libs/app0/lib1/childlib0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib0"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib0"
+          ]
         }
       },
       "schematics": {}
@@ -723,7 +809,10 @@
               "libs/app0/lib1/childlib1/tsconfig.lib.json",
               "libs/app0/lib1/childlib1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib1/**/*"
+            ]
           }
         },
         "test": {
@@ -732,7 +821,9 @@
             "jestConfig": "libs/app0/lib1/childlib1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib1"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib1"
+          ]
         }
       },
       "schematics": {}
@@ -762,7 +853,10 @@
               "libs/app0/lib1/childlib2/tsconfig.lib.json",
               "libs/app0/lib1/childlib2/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib2/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib2/**/*"
+            ]
           }
         },
         "test": {
@@ -771,7 +865,9 @@
             "jestConfig": "libs/app0/lib1/childlib2/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib2"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib2"
+          ]
         }
       },
       "schematics": {}
@@ -801,7 +897,10 @@
               "libs/app0/lib1/childlib3/tsconfig.lib.json",
               "libs/app0/lib1/childlib3/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib3/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib3/**/*"
+            ]
           }
         },
         "test": {
@@ -810,7 +909,9 @@
             "jestConfig": "libs/app0/lib1/childlib3/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib3"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib3"
+          ]
         }
       },
       "schematics": {}
@@ -840,7 +941,10 @@
               "libs/app0/lib1/childlib4/tsconfig.lib.json",
               "libs/app0/lib1/childlib4/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib4/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib4/**/*"
+            ]
           }
         },
         "test": {
@@ -849,7 +953,9 @@
             "jestConfig": "libs/app0/lib1/childlib4/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib4"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib4"
+          ]
         }
       },
       "schematics": {}
@@ -879,7 +985,10 @@
               "libs/app0/lib1/childlib5/tsconfig.lib.json",
               "libs/app0/lib1/childlib5/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib5/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib5/**/*"
+            ]
           }
         },
         "test": {
@@ -888,7 +997,9 @@
             "jestConfig": "libs/app0/lib1/childlib5/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib5"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib5"
+          ]
         }
       },
       "schematics": {}
@@ -918,7 +1029,10 @@
               "libs/app0/lib1/childlib6/tsconfig.lib.json",
               "libs/app0/lib1/childlib6/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib6/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib6/**/*"
+            ]
           }
         },
         "test": {
@@ -927,7 +1041,9 @@
             "jestConfig": "libs/app0/lib1/childlib6/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib6"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib6"
+          ]
         }
       },
       "schematics": {}
@@ -957,7 +1073,10 @@
               "libs/app0/lib1/childlib7/tsconfig.lib.json",
               "libs/app0/lib1/childlib7/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib7/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib7/**/*"
+            ]
           }
         },
         "test": {
@@ -966,7 +1085,9 @@
             "jestConfig": "libs/app0/lib1/childlib7/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib7"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib7"
+          ]
         }
       },
       "schematics": {}
@@ -996,7 +1117,10 @@
               "libs/app0/lib1/childlib8/tsconfig.lib.json",
               "libs/app0/lib1/childlib8/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib8/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib8/**/*"
+            ]
           }
         },
         "test": {
@@ -1005,7 +1129,9 @@
             "jestConfig": "libs/app0/lib1/childlib8/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib8"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib8"
+          ]
         }
       },
       "schematics": {}
@@ -1035,7 +1161,10 @@
               "libs/app0/lib1/childlib9/tsconfig.lib.json",
               "libs/app0/lib1/childlib9/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib1/childlib9/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib1/childlib9/**/*"
+            ]
           }
         },
         "test": {
@@ -1044,7 +1173,9 @@
             "jestConfig": "libs/app0/lib1/childlib9/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib1/childlib9"]
+          "outputs": [
+            "coverage/libs/app0/lib1/childlib9"
+          ]
         }
       },
       "schematics": {}
@@ -1074,7 +1205,10 @@
               "libs/app0/lib2/lib2/tsconfig.lib.json",
               "libs/app0/lib2/lib2/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/lib2/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/lib2/**/*"
+            ]
           }
         },
         "test": {
@@ -1083,7 +1217,9 @@
             "jestConfig": "libs/app0/lib2/lib2/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/lib2"]
+          "outputs": [
+            "coverage/libs/app0/lib2/lib2"
+          ]
         }
       },
       "schematics": {}
@@ -1113,7 +1249,10 @@
               "libs/app0/lib2/childlib0/tsconfig.lib.json",
               "libs/app0/lib2/childlib0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib0/**/*"
+            ]
           }
         },
         "test": {
@@ -1122,7 +1261,9 @@
             "jestConfig": "libs/app0/lib2/childlib0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib0"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib0"
+          ]
         }
       },
       "schematics": {}
@@ -1152,7 +1293,10 @@
               "libs/app0/lib2/childlib1/tsconfig.lib.json",
               "libs/app0/lib2/childlib1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib1/**/*"
+            ]
           }
         },
         "test": {
@@ -1161,7 +1305,9 @@
             "jestConfig": "libs/app0/lib2/childlib1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib1"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib1"
+          ]
         }
       },
       "schematics": {}
@@ -1191,7 +1337,10 @@
               "libs/app0/lib2/childlib2/tsconfig.lib.json",
               "libs/app0/lib2/childlib2/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib2/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib2/**/*"
+            ]
           }
         },
         "test": {
@@ -1200,7 +1349,9 @@
             "jestConfig": "libs/app0/lib2/childlib2/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib2"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib2"
+          ]
         }
       },
       "schematics": {}
@@ -1230,7 +1381,10 @@
               "libs/app0/lib2/childlib3/tsconfig.lib.json",
               "libs/app0/lib2/childlib3/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib3/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib3/**/*"
+            ]
           }
         },
         "test": {
@@ -1239,7 +1393,9 @@
             "jestConfig": "libs/app0/lib2/childlib3/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib3"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib3"
+          ]
         }
       },
       "schematics": {}
@@ -1269,7 +1425,10 @@
               "libs/app0/lib2/childlib4/tsconfig.lib.json",
               "libs/app0/lib2/childlib4/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib4/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib4/**/*"
+            ]
           }
         },
         "test": {
@@ -1278,7 +1437,9 @@
             "jestConfig": "libs/app0/lib2/childlib4/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib4"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib4"
+          ]
         }
       },
       "schematics": {}
@@ -1308,7 +1469,10 @@
               "libs/app0/lib2/childlib5/tsconfig.lib.json",
               "libs/app0/lib2/childlib5/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib5/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib5/**/*"
+            ]
           }
         },
         "test": {
@@ -1317,7 +1481,9 @@
             "jestConfig": "libs/app0/lib2/childlib5/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib5"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib5"
+          ]
         }
       },
       "schematics": {}
@@ -1347,7 +1513,10 @@
               "libs/app0/lib2/childlib6/tsconfig.lib.json",
               "libs/app0/lib2/childlib6/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib6/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib6/**/*"
+            ]
           }
         },
         "test": {
@@ -1356,7 +1525,9 @@
             "jestConfig": "libs/app0/lib2/childlib6/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib6"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib6"
+          ]
         }
       },
       "schematics": {}
@@ -1386,7 +1557,10 @@
               "libs/app0/lib2/childlib7/tsconfig.lib.json",
               "libs/app0/lib2/childlib7/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib7/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib7/**/*"
+            ]
           }
         },
         "test": {
@@ -1395,7 +1569,9 @@
             "jestConfig": "libs/app0/lib2/childlib7/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib7"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib7"
+          ]
         }
       },
       "schematics": {}
@@ -1425,7 +1601,10 @@
               "libs/app0/lib2/childlib8/tsconfig.lib.json",
               "libs/app0/lib2/childlib8/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib8/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib8/**/*"
+            ]
           }
         },
         "test": {
@@ -1434,7 +1613,9 @@
             "jestConfig": "libs/app0/lib2/childlib8/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib8"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib8"
+          ]
         }
       },
       "schematics": {}
@@ -1464,7 +1645,10 @@
               "libs/app0/lib2/childlib9/tsconfig.lib.json",
               "libs/app0/lib2/childlib9/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib2/childlib9/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib2/childlib9/**/*"
+            ]
           }
         },
         "test": {
@@ -1473,7 +1657,9 @@
             "jestConfig": "libs/app0/lib2/childlib9/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib2/childlib9"]
+          "outputs": [
+            "coverage/libs/app0/lib2/childlib9"
+          ]
         }
       },
       "schematics": {}
@@ -1503,7 +1689,10 @@
               "libs/app0/lib3/lib3/tsconfig.lib.json",
               "libs/app0/lib3/lib3/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/lib3/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/lib3/**/*"
+            ]
           }
         },
         "test": {
@@ -1512,7 +1701,9 @@
             "jestConfig": "libs/app0/lib3/lib3/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/lib3"]
+          "outputs": [
+            "coverage/libs/app0/lib3/lib3"
+          ]
         }
       },
       "schematics": {}
@@ -1542,7 +1733,10 @@
               "libs/app0/lib3/childlib0/tsconfig.lib.json",
               "libs/app0/lib3/childlib0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib0/**/*"
+            ]
           }
         },
         "test": {
@@ -1551,7 +1745,9 @@
             "jestConfig": "libs/app0/lib3/childlib0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib0"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib0"
+          ]
         }
       },
       "schematics": {}
@@ -1581,7 +1777,10 @@
               "libs/app0/lib3/childlib1/tsconfig.lib.json",
               "libs/app0/lib3/childlib1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib1/**/*"
+            ]
           }
         },
         "test": {
@@ -1590,7 +1789,9 @@
             "jestConfig": "libs/app0/lib3/childlib1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib1"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib1"
+          ]
         }
       },
       "schematics": {}
@@ -1620,7 +1821,10 @@
               "libs/app0/lib3/childlib2/tsconfig.lib.json",
               "libs/app0/lib3/childlib2/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib2/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib2/**/*"
+            ]
           }
         },
         "test": {
@@ -1629,7 +1833,9 @@
             "jestConfig": "libs/app0/lib3/childlib2/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib2"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib2"
+          ]
         }
       },
       "schematics": {}
@@ -1659,7 +1865,10 @@
               "libs/app0/lib3/childlib3/tsconfig.lib.json",
               "libs/app0/lib3/childlib3/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib3/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib3/**/*"
+            ]
           }
         },
         "test": {
@@ -1668,7 +1877,9 @@
             "jestConfig": "libs/app0/lib3/childlib3/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib3"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib3"
+          ]
         }
       },
       "schematics": {}
@@ -1698,7 +1909,10 @@
               "libs/app0/lib3/childlib4/tsconfig.lib.json",
               "libs/app0/lib3/childlib4/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib4/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib4/**/*"
+            ]
           }
         },
         "test": {
@@ -1707,7 +1921,9 @@
             "jestConfig": "libs/app0/lib3/childlib4/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib4"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib4"
+          ]
         }
       },
       "schematics": {}
@@ -1737,7 +1953,10 @@
               "libs/app0/lib3/childlib5/tsconfig.lib.json",
               "libs/app0/lib3/childlib5/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib5/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib5/**/*"
+            ]
           }
         },
         "test": {
@@ -1746,7 +1965,9 @@
             "jestConfig": "libs/app0/lib3/childlib5/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib5"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib5"
+          ]
         }
       },
       "schematics": {}
@@ -1776,7 +1997,10 @@
               "libs/app0/lib3/childlib6/tsconfig.lib.json",
               "libs/app0/lib3/childlib6/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib6/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib6/**/*"
+            ]
           }
         },
         "test": {
@@ -1785,7 +2009,9 @@
             "jestConfig": "libs/app0/lib3/childlib6/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib6"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib6"
+          ]
         }
       },
       "schematics": {}
@@ -1815,7 +2041,10 @@
               "libs/app0/lib3/childlib7/tsconfig.lib.json",
               "libs/app0/lib3/childlib7/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib7/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib7/**/*"
+            ]
           }
         },
         "test": {
@@ -1824,7 +2053,9 @@
             "jestConfig": "libs/app0/lib3/childlib7/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib7"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib7"
+          ]
         }
       },
       "schematics": {}
@@ -1854,7 +2085,10 @@
               "libs/app0/lib3/childlib8/tsconfig.lib.json",
               "libs/app0/lib3/childlib8/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib8/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib8/**/*"
+            ]
           }
         },
         "test": {
@@ -1863,7 +2097,9 @@
             "jestConfig": "libs/app0/lib3/childlib8/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib8"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib8"
+          ]
         }
       },
       "schematics": {}
@@ -1893,7 +2129,10 @@
               "libs/app0/lib3/childlib9/tsconfig.lib.json",
               "libs/app0/lib3/childlib9/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib3/childlib9/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib3/childlib9/**/*"
+            ]
           }
         },
         "test": {
@@ -1902,7 +2141,9 @@
             "jestConfig": "libs/app0/lib3/childlib9/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib3/childlib9"]
+          "outputs": [
+            "coverage/libs/app0/lib3/childlib9"
+          ]
         }
       },
       "schematics": {}
@@ -1932,7 +2173,10 @@
               "libs/app0/lib4/lib4/tsconfig.lib.json",
               "libs/app0/lib4/lib4/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/lib4/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/lib4/**/*"
+            ]
           }
         },
         "test": {
@@ -1941,7 +2185,9 @@
             "jestConfig": "libs/app0/lib4/lib4/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/lib4"]
+          "outputs": [
+            "coverage/libs/app0/lib4/lib4"
+          ]
         }
       },
       "schematics": {}
@@ -1971,7 +2217,10 @@
               "libs/app0/lib4/childlib0/tsconfig.lib.json",
               "libs/app0/lib4/childlib0/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib0/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib0/**/*"
+            ]
           }
         },
         "test": {
@@ -1980,7 +2229,9 @@
             "jestConfig": "libs/app0/lib4/childlib0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib0"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib0"
+          ]
         }
       },
       "schematics": {}
@@ -2010,7 +2261,10 @@
               "libs/app0/lib4/childlib1/tsconfig.lib.json",
               "libs/app0/lib4/childlib1/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib1/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib1/**/*"
+            ]
           }
         },
         "test": {
@@ -2019,7 +2273,9 @@
             "jestConfig": "libs/app0/lib4/childlib1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib1"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib1"
+          ]
         }
       },
       "schematics": {}
@@ -2049,7 +2305,10 @@
               "libs/app0/lib4/childlib2/tsconfig.lib.json",
               "libs/app0/lib4/childlib2/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib2/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib2/**/*"
+            ]
           }
         },
         "test": {
@@ -2058,7 +2317,9 @@
             "jestConfig": "libs/app0/lib4/childlib2/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib2"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib2"
+          ]
         }
       },
       "schematics": {}
@@ -2088,7 +2349,10 @@
               "libs/app0/lib4/childlib3/tsconfig.lib.json",
               "libs/app0/lib4/childlib3/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib3/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib3/**/*"
+            ]
           }
         },
         "test": {
@@ -2097,7 +2361,9 @@
             "jestConfig": "libs/app0/lib4/childlib3/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib3"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib3"
+          ]
         }
       },
       "schematics": {}
@@ -2127,7 +2393,10 @@
               "libs/app0/lib4/childlib4/tsconfig.lib.json",
               "libs/app0/lib4/childlib4/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib4/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib4/**/*"
+            ]
           }
         },
         "test": {
@@ -2136,7 +2405,9 @@
             "jestConfig": "libs/app0/lib4/childlib4/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib4"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib4"
+          ]
         }
       },
       "schematics": {}
@@ -2166,7 +2437,10 @@
               "libs/app0/lib4/childlib5/tsconfig.lib.json",
               "libs/app0/lib4/childlib5/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib5/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib5/**/*"
+            ]
           }
         },
         "test": {
@@ -2175,7 +2449,9 @@
             "jestConfig": "libs/app0/lib4/childlib5/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib5"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib5"
+          ]
         }
       },
       "schematics": {}
@@ -2205,7 +2481,10 @@
               "libs/app0/lib4/childlib6/tsconfig.lib.json",
               "libs/app0/lib4/childlib6/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib6/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib6/**/*"
+            ]
           }
         },
         "test": {
@@ -2214,7 +2493,9 @@
             "jestConfig": "libs/app0/lib4/childlib6/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib6"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib6"
+          ]
         }
       },
       "schematics": {}
@@ -2244,7 +2525,10 @@
               "libs/app0/lib4/childlib7/tsconfig.lib.json",
               "libs/app0/lib4/childlib7/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib7/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib7/**/*"
+            ]
           }
         },
         "test": {
@@ -2253,7 +2537,9 @@
             "jestConfig": "libs/app0/lib4/childlib7/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib7"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib7"
+          ]
         }
       },
       "schematics": {}
@@ -2283,7 +2569,10 @@
               "libs/app0/lib4/childlib8/tsconfig.lib.json",
               "libs/app0/lib4/childlib8/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib8/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib8/**/*"
+            ]
           }
         },
         "test": {
@@ -2292,7 +2581,9 @@
             "jestConfig": "libs/app0/lib4/childlib8/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib8"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib8"
+          ]
         }
       },
       "schematics": {}
@@ -2322,7 +2613,10 @@
               "libs/app0/lib4/childlib9/tsconfig.lib.json",
               "libs/app0/lib4/childlib9/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/app0/lib4/childlib9/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/app0/lib4/childlib9/**/*"
+            ]
           }
         },
         "test": {
@@ -2331,7 +2625,9 @@
             "jestConfig": "libs/app0/lib4/childlib9/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/libs/app0/lib4/childlib9"]
+          "outputs": [
+            "coverage/libs/app0/lib4/childlib9"
+          ]
         }
       },
       "schematics": {}
@@ -2354,7 +2650,9 @@
               "apps/reactapp0/src/favicon.ico",
               "apps/reactapp0/src/assets"
             ],
-            "styles": ["apps/reactapp0/src/styles.scss"],
+            "styles": [
+              "apps/reactapp0/src/styles.scss"
+            ],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
@@ -2382,7 +2680,20 @@
               ]
             }
           },
-          "outputs": ["{options.outputPath}"]
+          "outputs": [
+            "{options.outputPath}"
+          ]
+        },
+        "serve-incremental": {
+          "builder": "@nrwl/web:file-server",
+          "options": {
+            "buildTarget": "reactapp0:build"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "reactapp0:build:production"
+            }
+          }
         },
         "serve": {
           "builder": "@nrwl/web:dev-server",
@@ -2398,7 +2709,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/reactapp0/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/reactapp0/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         },
         "test": {
@@ -2407,7 +2720,9 @@
             "jestConfig": "apps/reactapp0/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/apps/reactapp0"]
+          "outputs": [
+            "coverage/apps/reactapp0"
+          ]
         }
       }
     },
@@ -2429,7 +2744,9 @@
               "apps/reactapp1/src/favicon.ico",
               "apps/reactapp1/src/assets"
             ],
-            "styles": ["apps/reactapp1/src/styles.scss"],
+            "styles": [
+              "apps/reactapp1/src/styles.scss"
+            ],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
@@ -2457,7 +2774,9 @@
               ]
             }
           },
-          "outputs": ["{options.outputPath}"]
+          "outputs": [
+            "{options.outputPath}"
+          ]
         },
         "serve": {
           "builder": "@nrwl/web:dev-server",
@@ -2473,7 +2792,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/reactapp1/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/reactapp1/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         },
         "test": {
@@ -2482,7 +2803,9 @@
             "jestConfig": "apps/reactapp1/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": ["coverage/apps/reactapp1"]
+          "outputs": [
+            "coverage/apps/reactapp1"
+          ]
         }
       }
     },
@@ -2501,13 +2824,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/lib0",
             "tsConfig": "libs/reactapp0/lib0/lib0/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/lib0/package.json",
             "entryFile": "libs/reactapp0/lib0/lib0/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2521,7 +2849,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/lib0"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/lib0"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/lib0/jest.config.js",
             "passWithNoTests": true
@@ -2544,13 +2874,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib0",
             "tsConfig": "libs/reactapp0/lib0/childlib0/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib0/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib0/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2564,7 +2899,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib0"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib0"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib0/jest.config.js",
             "passWithNoTests": true
@@ -2587,13 +2924,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib1",
             "tsConfig": "libs/reactapp0/lib0/childlib1/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib1/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib1/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2607,7 +2949,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib1"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib1"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib1/jest.config.js",
             "passWithNoTests": true
@@ -2630,13 +2974,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib2",
             "tsConfig": "libs/reactapp0/lib0/childlib2/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib2/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib2/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2650,7 +2999,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib2"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib2"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib2/jest.config.js",
             "passWithNoTests": true
@@ -2673,13 +3024,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib3",
             "tsConfig": "libs/reactapp0/lib0/childlib3/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib3/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib3/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2693,7 +3049,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib3"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib3"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib3/jest.config.js",
             "passWithNoTests": true
@@ -2716,13 +3074,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib4",
             "tsConfig": "libs/reactapp0/lib0/childlib4/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib4/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib4/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2736,7 +3099,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib4"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib4"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib4/jest.config.js",
             "passWithNoTests": true
@@ -2759,13 +3124,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib5",
             "tsConfig": "libs/reactapp0/lib0/childlib5/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib5/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib5/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2779,7 +3149,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib5"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib5"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib5/jest.config.js",
             "passWithNoTests": true
@@ -2802,13 +3174,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib6",
             "tsConfig": "libs/reactapp0/lib0/childlib6/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib6/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib6/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2822,7 +3199,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib6"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib6"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib6/jest.config.js",
             "passWithNoTests": true
@@ -2845,13 +3224,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib7",
             "tsConfig": "libs/reactapp0/lib0/childlib7/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib7/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib7/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2865,7 +3249,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib7"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib7"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib7/jest.config.js",
             "passWithNoTests": true
@@ -2888,13 +3274,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib8",
             "tsConfig": "libs/reactapp0/lib0/childlib8/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib8/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib8/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2908,7 +3299,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib8"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib8"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib8/jest.config.js",
             "passWithNoTests": true
@@ -2931,13 +3324,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib0/childlib9",
             "tsConfig": "libs/reactapp0/lib0/childlib9/tsconfig.lib.json",
             "project": "libs/reactapp0/lib0/childlib9/package.json",
             "entryFile": "libs/reactapp0/lib0/childlib9/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2951,7 +3349,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib0/childlib9"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib0/childlib9"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib0/childlib9/jest.config.js",
             "passWithNoTests": true
@@ -2974,13 +3374,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/lib1",
             "tsConfig": "libs/reactapp0/lib1/lib1/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/lib1/package.json",
             "entryFile": "libs/reactapp0/lib1/lib1/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -2994,7 +3399,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/lib1"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/lib1"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/lib1/jest.config.js",
             "passWithNoTests": true
@@ -3017,13 +3424,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib0",
             "tsConfig": "libs/reactapp0/lib1/childlib0/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib0/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib0/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3037,7 +3449,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib0"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib0"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib0/jest.config.js",
             "passWithNoTests": true
@@ -3060,13 +3474,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib1",
             "tsConfig": "libs/reactapp0/lib1/childlib1/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib1/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib1/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3080,7 +3499,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib1"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib1"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib1/jest.config.js",
             "passWithNoTests": true
@@ -3103,13 +3524,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib2",
             "tsConfig": "libs/reactapp0/lib1/childlib2/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib2/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib2/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3123,7 +3549,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib2"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib2"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib2/jest.config.js",
             "passWithNoTests": true
@@ -3146,13 +3574,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib3",
             "tsConfig": "libs/reactapp0/lib1/childlib3/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib3/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib3/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3166,7 +3599,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib3"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib3"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib3/jest.config.js",
             "passWithNoTests": true
@@ -3189,13 +3624,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib4",
             "tsConfig": "libs/reactapp0/lib1/childlib4/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib4/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib4/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3209,7 +3649,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib4"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib4"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib4/jest.config.js",
             "passWithNoTests": true
@@ -3232,13 +3674,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib5",
             "tsConfig": "libs/reactapp0/lib1/childlib5/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib5/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib5/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3252,7 +3699,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib5"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib5"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib5/jest.config.js",
             "passWithNoTests": true
@@ -3275,13 +3724,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib6",
             "tsConfig": "libs/reactapp0/lib1/childlib6/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib6/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib6/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3295,7 +3749,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib6"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib6"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib6/jest.config.js",
             "passWithNoTests": true
@@ -3318,13 +3774,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib7",
             "tsConfig": "libs/reactapp0/lib1/childlib7/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib7/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib7/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3338,7 +3799,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib7"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib7"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib7/jest.config.js",
             "passWithNoTests": true
@@ -3361,13 +3824,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib8",
             "tsConfig": "libs/reactapp0/lib1/childlib8/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib8/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib8/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3381,7 +3849,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib8"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib8"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib8/jest.config.js",
             "passWithNoTests": true
@@ -3404,13 +3874,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib1/childlib9",
             "tsConfig": "libs/reactapp0/lib1/childlib9/tsconfig.lib.json",
             "project": "libs/reactapp0/lib1/childlib9/package.json",
             "entryFile": "libs/reactapp0/lib1/childlib9/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3424,7 +3899,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib1/childlib9"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib1/childlib9"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib1/childlib9/jest.config.js",
             "passWithNoTests": true
@@ -3447,13 +3924,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/lib2",
             "tsConfig": "libs/reactapp0/lib2/lib2/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/lib2/package.json",
             "entryFile": "libs/reactapp0/lib2/lib2/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3467,7 +3949,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/lib2"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/lib2"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/lib2/jest.config.js",
             "passWithNoTests": true
@@ -3490,13 +3974,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib0",
             "tsConfig": "libs/reactapp0/lib2/childlib0/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib0/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib0/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3510,7 +3999,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib0"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib0"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib0/jest.config.js",
             "passWithNoTests": true
@@ -3533,13 +4024,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib1",
             "tsConfig": "libs/reactapp0/lib2/childlib1/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib1/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib1/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3553,7 +4049,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib1"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib1"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib1/jest.config.js",
             "passWithNoTests": true
@@ -3576,13 +4074,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib2",
             "tsConfig": "libs/reactapp0/lib2/childlib2/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib2/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib2/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3596,7 +4099,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib2"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib2"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib2/jest.config.js",
             "passWithNoTests": true
@@ -3619,13 +4124,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib3",
             "tsConfig": "libs/reactapp0/lib2/childlib3/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib3/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib3/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3639,7 +4149,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib3"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib3"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib3/jest.config.js",
             "passWithNoTests": true
@@ -3662,13 +4174,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib4",
             "tsConfig": "libs/reactapp0/lib2/childlib4/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib4/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib4/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3682,7 +4199,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib4"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib4"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib4/jest.config.js",
             "passWithNoTests": true
@@ -3705,13 +4224,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib5",
             "tsConfig": "libs/reactapp0/lib2/childlib5/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib5/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib5/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3725,7 +4249,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib5"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib5"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib5/jest.config.js",
             "passWithNoTests": true
@@ -3748,13 +4274,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib6",
             "tsConfig": "libs/reactapp0/lib2/childlib6/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib6/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib6/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3768,7 +4299,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib6"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib6"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib6/jest.config.js",
             "passWithNoTests": true
@@ -3791,13 +4324,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib7",
             "tsConfig": "libs/reactapp0/lib2/childlib7/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib7/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib7/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3811,7 +4349,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib7"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib7"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib7/jest.config.js",
             "passWithNoTests": true
@@ -3834,13 +4374,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib8",
             "tsConfig": "libs/reactapp0/lib2/childlib8/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib8/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib8/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3854,7 +4399,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib8"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib8"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib8/jest.config.js",
             "passWithNoTests": true
@@ -3877,13 +4424,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib2/childlib9",
             "tsConfig": "libs/reactapp0/lib2/childlib9/tsconfig.lib.json",
             "project": "libs/reactapp0/lib2/childlib9/package.json",
             "entryFile": "libs/reactapp0/lib2/childlib9/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3897,7 +4449,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib2/childlib9"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib2/childlib9"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib2/childlib9/jest.config.js",
             "passWithNoTests": true
@@ -3920,13 +4474,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/lib3",
             "tsConfig": "libs/reactapp0/lib3/lib3/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/lib3/package.json",
             "entryFile": "libs/reactapp0/lib3/lib3/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3940,7 +4499,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/lib3"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/lib3"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/lib3/jest.config.js",
             "passWithNoTests": true
@@ -3963,13 +4524,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib0",
             "tsConfig": "libs/reactapp0/lib3/childlib0/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib0/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib0/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -3983,7 +4549,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib0"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib0"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib0/jest.config.js",
             "passWithNoTests": true
@@ -4006,13 +4574,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib1",
             "tsConfig": "libs/reactapp0/lib3/childlib1/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib1/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib1/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4026,7 +4599,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib1"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib1"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib1/jest.config.js",
             "passWithNoTests": true
@@ -4049,13 +4624,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib2",
             "tsConfig": "libs/reactapp0/lib3/childlib2/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib2/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib2/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4069,7 +4649,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib2"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib2"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib2/jest.config.js",
             "passWithNoTests": true
@@ -4092,13 +4674,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib3",
             "tsConfig": "libs/reactapp0/lib3/childlib3/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib3/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib3/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4112,7 +4699,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib3"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib3"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib3/jest.config.js",
             "passWithNoTests": true
@@ -4135,13 +4724,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib4",
             "tsConfig": "libs/reactapp0/lib3/childlib4/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib4/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib4/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4155,7 +4749,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib4"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib4"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib4/jest.config.js",
             "passWithNoTests": true
@@ -4178,13 +4774,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib5",
             "tsConfig": "libs/reactapp0/lib3/childlib5/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib5/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib5/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4198,7 +4799,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib5"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib5"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib5/jest.config.js",
             "passWithNoTests": true
@@ -4221,13 +4824,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib6",
             "tsConfig": "libs/reactapp0/lib3/childlib6/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib6/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib6/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4241,7 +4849,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib6"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib6"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib6/jest.config.js",
             "passWithNoTests": true
@@ -4264,13 +4874,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib7",
             "tsConfig": "libs/reactapp0/lib3/childlib7/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib7/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib7/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4284,7 +4899,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib7"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib7"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib7/jest.config.js",
             "passWithNoTests": true
@@ -4307,13 +4924,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib8",
             "tsConfig": "libs/reactapp0/lib3/childlib8/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib8/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib8/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4327,7 +4949,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib8"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib8"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib8/jest.config.js",
             "passWithNoTests": true
@@ -4350,13 +4974,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib3/childlib9",
             "tsConfig": "libs/reactapp0/lib3/childlib9/tsconfig.lib.json",
             "project": "libs/reactapp0/lib3/childlib9/package.json",
             "entryFile": "libs/reactapp0/lib3/childlib9/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4370,7 +4999,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib3/childlib9"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib3/childlib9"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib3/childlib9/jest.config.js",
             "passWithNoTests": true
@@ -4393,13 +5024,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/lib4",
             "tsConfig": "libs/reactapp0/lib4/lib4/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/lib4/package.json",
             "entryFile": "libs/reactapp0/lib4/lib4/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4413,7 +5049,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/lib4"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/lib4"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/lib4/jest.config.js",
             "passWithNoTests": true
@@ -4436,13 +5074,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib0",
             "tsConfig": "libs/reactapp0/lib4/childlib0/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib0/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib0/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4456,7 +5099,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib0"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib0"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib0/jest.config.js",
             "passWithNoTests": true
@@ -4479,13 +5124,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib1",
             "tsConfig": "libs/reactapp0/lib4/childlib1/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib1/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib1/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4499,7 +5149,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib1"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib1"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib1/jest.config.js",
             "passWithNoTests": true
@@ -4522,13 +5174,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib2",
             "tsConfig": "libs/reactapp0/lib4/childlib2/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib2/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib2/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4542,7 +5199,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib2"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib2"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib2/jest.config.js",
             "passWithNoTests": true
@@ -4565,13 +5224,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib3",
             "tsConfig": "libs/reactapp0/lib4/childlib3/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib3/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib3/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4585,7 +5249,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib3"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib3"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib3/jest.config.js",
             "passWithNoTests": true
@@ -4608,13 +5274,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib4",
             "tsConfig": "libs/reactapp0/lib4/childlib4/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib4/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib4/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4628,7 +5299,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib4"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib4"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib4/jest.config.js",
             "passWithNoTests": true
@@ -4651,13 +5324,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib5",
             "tsConfig": "libs/reactapp0/lib4/childlib5/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib5/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib5/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4671,7 +5349,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib5"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib5"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib5/jest.config.js",
             "passWithNoTests": true
@@ -4694,13 +5374,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib6",
             "tsConfig": "libs/reactapp0/lib4/childlib6/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib6/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib6/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4714,7 +5399,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib6"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib6"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib6/jest.config.js",
             "passWithNoTests": true
@@ -4737,13 +5424,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib7",
             "tsConfig": "libs/reactapp0/lib4/childlib7/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib7/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib7/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4757,7 +5449,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib7"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib7"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib7/jest.config.js",
             "passWithNoTests": true
@@ -4780,13 +5474,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib8",
             "tsConfig": "libs/reactapp0/lib4/childlib8/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib8/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib8/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4800,7 +5499,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib8"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib8"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib8/jest.config.js",
             "passWithNoTests": true
@@ -4823,13 +5524,18 @@
         },
         "build": {
           "builder": "@nrwl/web:package",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "outputPath": "dist/libs/reactapp0/lib4/childlib9",
             "tsConfig": "libs/reactapp0/lib4/childlib9/tsconfig.lib.json",
             "project": "libs/reactapp0/lib4/childlib9/package.json",
             "entryFile": "libs/reactapp0/lib4/childlib9/src/index.ts",
-            "external": ["react", "react-dom"],
+            "external": [
+              "react",
+              "react-dom"
+            ],
             "babelConfig": "@nrwl/react/plugins/bundle-babel",
             "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
             "assets": [
@@ -4843,7 +5549,9 @@
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/reactapp0/lib4/childlib9"],
+          "outputs": [
+            "coverage/libs/reactapp0/lib4/childlib9"
+          ],
           "options": {
             "jestConfig": "libs/reactapp0/lib4/childlib9/jest.config.js",
             "passWithNoTests": true
