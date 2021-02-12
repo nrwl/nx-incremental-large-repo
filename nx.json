@@ -178,6 +178,177 @@
     },
     "app0-lib4-childlib9": {
       "tags": []
+    },
+    "reactapp0": {
+      "tags": []
+    },
+    "reactapp1": {
+      "tags": []
+    },
+    "reactapp0-lib0-lib0": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib0": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib1": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib2": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib3": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib4": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib5": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib6": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib7": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib8": {
+      "tags": []
+    },
+    "reactapp0-lib0-childlib9": {
+      "tags": []
+    },
+    "reactapp0-lib1-lib1": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib0": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib1": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib2": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib3": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib4": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib5": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib6": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib7": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib8": {
+      "tags": []
+    },
+    "reactapp0-lib1-childlib9": {
+      "tags": []
+    },
+    "reactapp0-lib2-lib2": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib0": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib1": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib2": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib3": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib4": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib5": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib6": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib7": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib8": {
+      "tags": []
+    },
+    "reactapp0-lib2-childlib9": {
+      "tags": []
+    },
+    "reactapp0-lib3-lib3": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib0": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib1": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib2": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib3": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib4": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib5": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib6": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib7": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib8": {
+      "tags": []
+    },
+    "reactapp0-lib3-childlib9": {
+      "tags": []
+    },
+    "reactapp0-lib4-lib4": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib0": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib1": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib2": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib3": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib4": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib5": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib6": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib7": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib8": {
+      "tags": []
+    },
+    "reactapp0-lib4-childlib9": {
+      "tags": []
     }
   },
   "tasksRunnerOptions": {
@@ -185,12 +356,7 @@
       "runner": "@nrwl/nx-cloud",
       "options": {
         "accessToken": "YWM3NWZiNmItZWUzMS00ZmMyLWJlODQtZGFlNGMxN2I5NmVlfHJlYWQtd3JpdGU=",
-        "cacheableOperations": [
-          "build",
-          "test",
-          "lint",
-          "e2e"
-        ]
+        "cacheableOperations": ["build", "test", "lint", "e2e"]
       }
     }
   },
