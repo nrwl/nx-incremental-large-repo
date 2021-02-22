@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { Lib4childlib7component22Component } from './lib4childlib7component22.component';
 
@@ -6,7 +6,7 @@ describe('Lib4childlib7component22Component', () => {
   let component: Lib4childlib7component22Component;
   let fixture: ComponentFixture<Lib4childlib7component22Component>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [Lib4childlib7component22Component]
     }).compileComponents();
