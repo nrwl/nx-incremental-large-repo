@@ -1,88 +1,36 @@
 {
   "migrations": [
     {
-      "version": "11.0.0-beta.15",
-      "description": "Adds `outputs` based on builders",
-      "factory": "./src/migrations/update-11-0-0/add-outputs-in-workspace",
-      "package": "@nrwl/workspace",
-      "name": "add-outputs-in-workspace"
+      "cli": "nx",
+      "version": "11.5.0-beta.0",
+      "description": "Update project .eslintrc.json files to always use project level tsconfigs",
+      "factory": "./src/migrations/update-11-5-0/always-use-project-level-tsconfigs-with-eslint",
+      "package": "@nrwl/linter",
+      "name": "always-use-project-level-tsconfigs-with-eslint"
     },
     {
-      "version": "11.0.0",
-      "description": "Check that the right update command is used",
-      "factory": "./src/migrations/update-11-0-0/update-command-check",
-      "package": "@nrwl/workspace",
-      "name": "update-command-check"
+      "cli": "nx",
+      "version": "11.5.2-beta.1",
+      "description": "Remove presets from the root babel.config.json file to prevent conflicts with babel presets used in apps.",
+      "factory": "./src/migrations/update-11-5-2/update-root-babel-config",
+      "package": "@nrwl/web",
+      "name": "update-root-babel-config-11-5-2"
     },
     {
-      "version": "11.0.2",
-      "description": "Rename the workspace-schematic script into workspace-generator script",
-      "factory": "./src/migrations/update-11-0-0/rename-workspace-schematic-script",
-      "package": "@nrwl/workspace",
-      "name": "rename-workspace-schematic-script"
+      "cli": "nx",
+      "version": "11.5.2-beta.1",
+      "description": "Create .babelrc files for workspace libs to fix compatibility with the new babel.config.json setup.",
+      "factory": "./src/migrations/update-11-5-2/create-babelrc-for-workspace-libs",
+      "package": "@nrwl/web",
+      "name": "create-babelrc-for-workspace-libs-11-5-2"
     },
     {
-      "version": "11.0.0-beta.13",
-      "description": "Update builder configurations and dependencies",
-      "factory": "./src/migrations/update-11-0-0/update-builders-config",
-      "package": "@nrwl/angular",
-      "name": "update-11-0-0"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "NavigationExtras omissions migration. In version 11, some unsupported properties were omitted from the `extras` parameter of the `Router.navigateByUrl` and `Router.createUrlTree` methods.",
-      "factory": "./migrations/navigation-extras-omissions/index",
-      "package": "@angular/core",
-      "name": "migration-v11-navigation-extras-omissions"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "The default value for `relativeLinkResolution` is changing from 'legacy' to 'corrected'.\nThis migration updates `RouterModule` configurations that use the default value to \nnow specifically use 'legacy' to prevent breakages when updating.",
-      "factory": "./migrations/relative-link-resolution/index",
-      "package": "@angular/core",
-      "name": "migration-v11-router-relative-link-resolution-default"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "In Angular version 11, the type of `AbstractControl.parent` can be `null` to reflect the runtime value more accurately. This migration automatically adds non-null assertions to existing accesses of the `parent` property on types like `FormControl`, `FormArray` and `FormGroup`.",
-      "factory": "./migrations/abstract-control-parent/index",
-      "package": "@angular/core",
-      "name": "migration-v11-abstract-control-parent"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "ViewEncapsulation.Native has been removed as of Angular version 11. This migration replaces any usages with ViewEncapsulation.ShadowDom.",
-      "factory": "./migrations/native-view-encapsulation/index",
-      "package": "@angular/core",
-      "name": "migration-v11-native-view-encapsulation"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "`async` to `waitForAsync` migration. The `async` testing function has been renamed to `waitForAsync` to avoid confusion with the native `async` keyword.",
-      "factory": "./migrations/wait-for-async/index",
-      "package": "@angular/core",
-      "name": "migration-v11-wait-for-async"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "NavigationExtras.preserveQueryParams has been removed as of Angular version 11.  This migration replaces any usages with the appropriate assignment of the queryParamsHandling key.",
-      "factory": "./migrations/router-preserve-query-params/index",
-      "package": "@angular/core",
-      "name": "migration-v11-router-preserve-query-params"
-    },
-    {
-      "version": "11.0.0-beta",
-      "description": "Updates the `initialNavigation` property for `RouterModule.forRoot`.",
-      "factory": "./migrations/initial-navigation/index",
-      "package": "@angular/core",
-      "name": "migration-v11-router-initial-navigation-options"
-    },
-    {
-      "version": "11.1.0-beta",
-      "description": "Removes `canActivate` from a `Route` config when `redirectTo` is also present",
-      "factory": "./migrations/can-activate-with-redirect-to/index",
-      "package": "@angular/core",
-      "name": "migration-v11.1-can-activate-with-redirect-to"
+      "cli": "nx",
+      "version": "11.5.2-beta.1",
+      "description": "Update existing .babelrc files to add missing '@nrwl/web/babel' preset if necessary.",
+      "factory": "./src/migrations/update-11-5-2/update-existing-babelrc-files",
+      "package": "@nrwl/web",
+      "name": "update-existing-babelrc-files-11-5-2"
     }
   ]
 }
