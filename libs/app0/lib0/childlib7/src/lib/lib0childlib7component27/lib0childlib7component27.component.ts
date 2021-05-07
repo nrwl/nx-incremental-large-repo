@@ -1,12 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'largerepo-lib0childlib7component27',
   templateUrl: './lib0childlib7component27.component.html',
-  styleUrls: ['./lib0childlib7component27.component.css']
+  styleUrls: ['./lib0childlib7component27.component.css'],
 })
-export class Lib0childlib7component27Component implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class Lib0childlib7component27Component {}
