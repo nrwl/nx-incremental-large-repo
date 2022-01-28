@@ -6,11 +6,14 @@ describe('Lib3childlib8component2Component', () => {
   let component: Lib3childlib8component2Component;
   let fixture: ComponentFixture<Lib3childlib8component2Component>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [Lib3childlib8component2Component]
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [Lib3childlib8component2Component],
+        teardown: { destroyAfterEach: false },
+      }).compileComponents();
+    })
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(Lib3childlib8component2Component);
