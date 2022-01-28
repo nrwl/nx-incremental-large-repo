@@ -14,11 +14,19 @@
       "rules": {
         "@angular-eslint/directive-selector": [
           "error",
-          { "type": "attribute", "prefix": "largerepo", "style": "camelCase" }
+          {
+            "type": "attribute",
+            "prefix": "largerepo",
+            "style": "camelCase"
+          }
         ],
         "@angular-eslint/component-selector": [
           "error",
-          { "type": "element", "prefix": "largerepo", "style": "kebab-case" }
+          {
+            "type": "element",
+            "prefix": "largerepo",
+            "style": "kebab-case"
+          }
         ]
       }
     },

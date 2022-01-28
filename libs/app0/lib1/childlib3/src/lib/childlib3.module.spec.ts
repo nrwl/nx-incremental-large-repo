@@ -2,11 +2,14 @@ import { TestBed, waitForAsync } from '@angular/core/testing';
 import { Childlib3Module } from './childlib3.module';
 
 describe('Childlib3Module', () => {
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [Childlib3Module]
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [Childlib3Module],
+        teardown: { destroyAfterEach: false },
+      }).compileComponents();
+    })
+  );
 
   it('should create', () => {
     expect(Childlib3Module).toBeDefined();
