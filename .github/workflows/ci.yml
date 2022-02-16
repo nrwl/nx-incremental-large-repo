@@ -1,0 +1,73 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+env:
+  NX_CLOUD_DISTRIBUTED_EXECUTION: true
+
+jobs:
+  setup:
+    name: cache & install dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🔎 The name of your branch is ${{ github.head_ref }} and your repository is ${{ github.repository }}."
+
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Setup dependencies
+        uses: ./.github/actions/cache-node-modules
+
+  main:
+    runs-on: ubuntu-latest
+    needs: [setup]
+    if: ${{ github.event_name != 'pull_request' }}
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout [main]
+        with:
+          fetch-depth: 0
+      - name: Setup dependencies
+        uses: ./.github/actions/cache-node-modules
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@v2
+      - run: npx nx-cloud start-ci-run
+      - run: yarn nx affected --target=build --parallel --max-parallel=2
+      - run: yarn nx affected --target=lint --parallel --max-parallel=2
+      - run: npx nx-cloud stop-all-agents
+
+  pr:
+    runs-on: ubuntu-latest
+    needs: [setup]
+    if: ${{ github.event_name == 'pull_request' }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+      - name: Setup dependencies
+        uses: ./.github/actions/cache-node-modules     
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@v2
+      - run: npx nx-cloud start-ci-run
+      - run: yarn nx affected --target=build --parallel --max-parallel=2
+      - run: yarn nx affected --target=lint --parallel --max-parallel=2
+      - run: npx nx-cloud stop-all-agents
+
+  agents:
+    runs-on: ubuntu-latest
+    needs: [setup]
+    name: NX Cloud Agent
+    timeout-minutes: 60
+    strategy:
+      matrix:
+        agent: [1, 2, 3]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup dependencies
+        uses: ./.github/actions/cache-node-modules
+      - name: Start Nx Agent ${{ matrix.agent }}
+        run: npx nx-cloud start-agent
