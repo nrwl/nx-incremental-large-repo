@@ -1,0 +1,40 @@
+{
+  "projectType": "library",
+  "root": "libs/app0/lib3/childlib5",
+  "sourceRoot": "libs/app0/lib3/childlib5/src",
+  "prefix": "largerepo",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "options": {
+        "tsConfig": "libs/app0/lib3/childlib5/tsconfig.lib.json",
+        "project": "libs/app0/lib3/childlib5/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/app0/lib3/childlib5/tsconfig.lib.prod.json"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/app0/lib3/childlib5/src/**/*.ts",
+          "libs/app0/lib3/childlib5/src/**/*.html"
+        ]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/app0/lib3/childlib5/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/app0/lib3/childlib5"]
+    }
+  },
+  "generators": {},
+  "tags": []
+}

@@ -6,11 +6,14 @@ describe('Lib4childlib9component20Component', () => {
   let component: Lib4childlib9component20Component;
   let fixture: ComponentFixture<Lib4childlib9component20Component>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [Lib4childlib9component20Component]
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [Lib4childlib9component20Component],
+        teardown: { destroyAfterEach: false },
+      }).compileComponents();
+    })
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(Lib4childlib9component20Component);

@@ -1,0 +1,91 @@
+{
+  "projectType": "application",
+  "generators": {},
+  "root": "apps/app0",
+  "sourceRoot": "apps/app0/src",
+  "prefix": "largerepo",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:webpack-browser",
+      "options": {
+        "outputPath": "dist/apps/app0",
+        "index": "apps/app0/src/index.html",
+        "main": "apps/app0/src/main.ts",
+        "polyfills": "apps/app0/src/polyfills.ts",
+        "tsConfig": "apps/app0/tsconfig.app.json",
+        "assets": ["apps/app0/src/favicon.ico", "apps/app0/src/assets"],
+        "styles": ["apps/app0/src/styles.css"],
+        "scripts": [],
+        "vendorChunk": true,
+        "extractLicenses": false,
+        "buildOptimizer": false,
+        "sourceMap": true,
+        "optimization": false,
+        "namedChunks": true,
+        "aot": false
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/app0/src/environments/environment.ts",
+              "with": "apps/app0/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "buildOptimizer": true,
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "2mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "6kb",
+              "maximumError": "10kb"
+            }
+          ]
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:file-server",
+      "options": {
+        "buildTarget": "app0:build"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "app0:build:production"
+        }
+      }
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "app0:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/app0/src/**/*.ts", "apps/app0/src/**/*.html"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/app0/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/apps/app0"]
+    }
+  },
+  "tags": []
+}
