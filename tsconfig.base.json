@@ -16,7 +16,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@largerepo/app0/lib0/lib0": ["libs/app0/lib0/lib0/src/index.ts"],
       "@largerepo/app0/lib0/childlib0": [
         "libs/app0/lib0/childlib0/src/index.ts"
       ],
@@ -47,7 +46,7 @@
       "@largerepo/app0/lib0/childlib9": [
         "libs/app0/lib0/childlib9/src/index.ts"
       ],
-      "@largerepo/app0/lib1/lib1": ["libs/app0/lib1/lib1/src/index.ts"],
+      "@largerepo/app0/lib0/lib0": ["libs/app0/lib0/lib0/src/index.ts"],
       "@largerepo/app0/lib1/childlib0": [
         "libs/app0/lib1/childlib0/src/index.ts"
       ],
@@ -78,7 +77,7 @@
       "@largerepo/app0/lib1/childlib9": [
         "libs/app0/lib1/childlib9/src/index.ts"
       ],
-      "@largerepo/app0/lib2/lib2": ["libs/app0/lib2/lib2/src/index.ts"],
+      "@largerepo/app0/lib1/lib1": ["libs/app0/lib1/lib1/src/index.ts"],
       "@largerepo/app0/lib2/childlib0": [
         "libs/app0/lib2/childlib0/src/index.ts"
       ],
@@ -109,7 +108,7 @@
       "@largerepo/app0/lib2/childlib9": [
         "libs/app0/lib2/childlib9/src/index.ts"
       ],
-      "@largerepo/app0/lib3/lib3": ["libs/app0/lib3/lib3/src/index.ts"],
+      "@largerepo/app0/lib2/lib2": ["libs/app0/lib2/lib2/src/index.ts"],
       "@largerepo/app0/lib3/childlib0": [
         "libs/app0/lib3/childlib0/src/index.ts"
       ],
@@ -140,7 +139,7 @@
       "@largerepo/app0/lib3/childlib9": [
         "libs/app0/lib3/childlib9/src/index.ts"
       ],
-      "@largerepo/app0/lib4/lib4": ["libs/app0/lib4/lib4/src/index.ts"],
+      "@largerepo/app0/lib3/lib3": ["libs/app0/lib3/lib3/src/index.ts"],
       "@largerepo/app0/lib4/childlib0": [
         "libs/app0/lib4/childlib0/src/index.ts"
       ],
@@ -170,7 +169,8 @@
       ],
       "@largerepo/app0/lib4/childlib9": [
         "libs/app0/lib4/childlib9/src/index.ts"
-      ]
+      ],
+      "@largerepo/app0/lib4/lib4": ["libs/app0/lib4/lib4/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,10 +1,20 @@
 module.exports = {
   preset: '../../../../jest.preset.js',
   coverageDirectory: '../../../../coverage/libs/app0/lib1/childlib2',
-  snapshotSerializers: [
-    'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
-    'jest-preset-angular/build/AngularSnapshotSerializer.js',
-    'jest-preset-angular/build/HTMLCommentSerializer.js',
-  ],
+
   displayName: 'app0-lib1-childlib2',
+  snapshotSerializers: [
+    'jest-preset-angular/build/serializers/no-ng-attributes',
+    'jest-preset-angular/build/serializers/ng-snapshot',
+    'jest-preset-angular/build/serializers/html-comment',
+  ],
+  setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
+  transform: { '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular' },
+  transformIgnorePatterns: ['node_modules/(?!.*\\.mjs$)'],
+  globals: {
+    'ts-jest': {
+      tsconfig: '<rootDir>/tsconfig.spec.json',
+      stringifyContentPathRegex: '\\.(html|svg)$',
+    },
+  },
 };

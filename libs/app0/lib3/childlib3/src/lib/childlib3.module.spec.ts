@@ -4,7 +4,8 @@ import { Childlib3Module } from './childlib3.module';
 describe('Childlib3Module', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [Childlib3Module]
+      imports: [Childlib3Module],
+      teardown: { destroyAfterEach: false },
     }).compileComponents();
   }));
 

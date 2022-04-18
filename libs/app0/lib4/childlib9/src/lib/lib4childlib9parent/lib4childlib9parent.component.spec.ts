@@ -8,7 +8,8 @@ describe('Lib4childlib9parentComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [Lib4childlib9parentComponent]
+      declarations: [Lib4childlib9parentComponent],
+      teardown: { destroyAfterEach: false },
     }).compileComponents();
   }));
 

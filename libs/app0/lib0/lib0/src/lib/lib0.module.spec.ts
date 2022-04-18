@@ -4,7 +4,8 @@ import { Lib0Module } from './lib0.module';
 describe('Lib0Module', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [Lib0Module]
+      imports: [Lib0Module],
+      teardown: { destroyAfterEach: false },
     }).compileComponents();
   }));
 
