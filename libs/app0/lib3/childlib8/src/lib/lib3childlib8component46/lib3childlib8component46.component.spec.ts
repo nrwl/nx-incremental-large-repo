@@ -8,7 +8,8 @@ describe('Lib3childlib8component46Component', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [Lib3childlib8component46Component]
+      declarations: [Lib3childlib8component46Component],
+      teardown: { destroyAfterEach: false },
     }).compileComponents();
   }));
 
